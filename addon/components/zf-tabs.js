@@ -19,5 +19,5 @@ export default Ember.Component.extend(zfWidget, {
   'zfType': 'Tabs',
 
   /** @member Foundation specific options */
-  'zfOptions': ['autoFocus', 'wrapOnKeys', 'matchHeight', 'linkClass', 'panelClass']
+  'zfOptions': ['autoFocus', 'wrapOnKeys', 'matchHeight', 'linkClass', 'panelClass', 'deepLink', 'deepLinkSmudge', 'deepLinkSmudgeDelay', 'updateHistory' ]
 });
